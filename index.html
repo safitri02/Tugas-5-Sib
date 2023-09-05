@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tugas 5 Sib</title>
+   <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+  </head>
+  <body>
+
+       <!-- navbar -->
+       <div class="navbar navbar-expand-lg fixed-top bg-primary" data-bs-theme="dark">
+        <div class="container">
+          <!-- <a href="../" class="navbar-brand">Bootswatch</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://blog.bootswatch.com/">Kontak</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-md-auto">
+              <li class="nav-item">
+                <a target="_blank" rel="noopener" class="nav-link" href="https://github.com/thomaspark/bootswatch/"><i class="bi bi-github"></i><span class="d-lg-none ms-2">GitHub</span></a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" rel="noopener" class="nav-link" href="https://twitter.com/bootswatch"><i class="bi bi-twitter"></i><span class="d-lg-none ms-2">Twitter</span></a>
+              </li>
+              <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
+                <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
+                <hr class="d-lg-none my-2 text-white-50">
+              </li>
+              <li class="nav-item dropdown" data-bs-theme="light">
+                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme">
+                  <i class="bi bi-circle-half"></i>
+                  <span class="d-lg-none ms-2">Toggle theme</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                      <i class="bi bi-sun-fill"></i><span class="ms-2">Light</span>
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="true">
+                      <i class="bi bi-moon-stars-fill"></i><span class="ms-2">Dark</span>
+                    </button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <!-- end navbar -->
+
+    <!-- Carrousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="asset/img/banner.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block mb-5">
+                <img src="asset/img/fitri.jpg" alt="" style="height: 300px;" class="rounded-pill">
+              <h5 class="mt-2">Safitri</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="asset/img/banner1.jpg" class="d-block w-100" alt="...">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div> -->
+          </div>
+          <div class="carousel-item">
+            <img src="asset/img/banner2.jpg" class="d-block w-100" alt="...">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div> -->
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+     <!-- end Carousel -->
+
+      <!-- Container -->
+      <div class="container">
+      <div id="portfolio">
+        <div class="row mt-5 mb-3">
+            <div class="col-md-9 kiri">
+                <div id="portfolio">
+                <div class="row">
+                    <h3 class="text-center mb-2">Portfolio Saya</h3>
+                    <div class="col-md-4">
+                        <div class="card shadow kiri" style="width: 16rem;">
+                            <img src="https://safitri02.github.io/img/projects/pengaduan.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pengaduan Masayarakat</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://github.com/safitri02/UKK-P2-Pengaduan-Masyarakat-" class="btn btn-primary">Lihat</a>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow kiri" style="width: 16rem;">
+                            <img src="https://safitri02.github.io/img/projects/travel.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sistem Informasi Pariwisata</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://github.com/safitri02/Web-Travel-" class="btn btn-primary">Lihat</a>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow kiri" style="width: 16rem;">
+                            <img src="https://safitri02.github.io/img/projects/nomadstravel.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Travelify</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://github.com/safitri02/Nomads" class="btn btn-primary">Lihat</a>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <ul class="list-group">
+                <h4 class="mt-3 mb-3 ms-3">Tautan</h4>
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/im-safitri02/">Linkedin</a></li>
+                <li class="list-group-item"><a href="github.com/safitri02">Github</a></li>
+                <li class="list-group-item"><a href="instagram.com/safitri16__">Instagram</a></li>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+
+      </div>
+      <!-- End Container -->
+
+      <!-- footer -->
+      <div class="alert alert-primary" role="alert">
+        <p class="text-center">Copyright Safitri</p>
+    </div>
+      <!-- end footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
