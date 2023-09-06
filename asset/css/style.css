@@ -1,7 +1,6 @@
-/* .kanan{
-    height: 500px;
-} */
-
+.info .card{
+    height: 100px;
+}
 .card {
     height: 350px;
 }
@@ -9,4 +8,12 @@
 .list-group a{
     text-decoration: none;
     color: #000;
+}
+
+.list-group h3{
+    color: white;
+}
+
+form label{
+    text-align: right;
 }
